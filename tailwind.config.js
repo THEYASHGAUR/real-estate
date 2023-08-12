@@ -8,6 +8,13 @@ export default {
     extend: {
       height:{
         "110": "28rem"
+      },
+      backgroundImage:{
+        "landing_page": "url('/src/assets/sofa.png')"
+      },
+      width:{
+        "100":"28rem",
+        "110": "35rem"
       }
     },
   },
