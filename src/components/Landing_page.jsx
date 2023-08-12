@@ -9,7 +9,7 @@ const Landing_page = () => {
         {/* serach bar */}
         <div className='w-96 relative mt-10 sm:w-110 sm:mx-3'>
           <input
-            className='w-full h-20 text-2xl p-3 pr-28 sm:mx-3 border-spacing-1 space-x-2  overflow-hidden'
+            className='w-full md:h-20 h-14 text-2xl p-3 pr-28 sm:mx-3 border-spacing-1 space-x-2  overflow-hidden'
             type="text"
             placeholder="Enter a address , pincode or location"
           />
