@@ -57,7 +57,7 @@ export default function Main() {
 
             {/* max-w-[1075px] */}
             {/* display section  */}
-            <section className="h-full my-20  p-10 bg-pink-100 mx-3 sm:mx-32  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 rounded-xl">
+            <section className="h-full my-20  p-10 bg-pink-100 mx-3 sm:mx-40 sm:items-center md:mx-5  grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 rounded-xl">
                 <Card />
                 <Card />
                 <Card />
