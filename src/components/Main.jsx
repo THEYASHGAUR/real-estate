@@ -14,7 +14,6 @@ export default function Main() {
     const [selectedArea, setSelectedArea] = useState("");
 
     const applyFilters = () => {
-        console.log("serach")
         let newData = propertyData;
 
         if (selectedLocation) {
@@ -23,6 +22,12 @@ export default function Main() {
 
         if (selectedBHK) {
             newData = newData.filter(property => property.bhk === parseInt(selectedBHK));
+        }
+        if(selectedPrice){
+            newData = newData.filter(property => property.price === selectedPrice);
+        }
+        if(selectedArea){
+            newData = newData.filter(property => property.area === selectedArea);
         }
 
         setFilteredData(newData);
@@ -43,12 +48,12 @@ export default function Main() {
                             value={selectedLocation}
                         >
                             <option value="">Location</option>
-                            <option>Downtown Area</option>
-                            <option>San Francisco</option>
-                            <option>Suburbia Heights</option>
-                            <option>Central Park Area</option>
-                            <option>Hillside Heights</option>
-                            <option>Riverside Residences</option>
+                            <option>New Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Pune</option>
+                            <option>Banglore</option>
+                            <option>Haryana</option>
+                            <option>Punjab</option>
                         </select>
                     </div>
                     <div className="relative w-full  md:w-1/2">
@@ -74,11 +79,12 @@ export default function Main() {
                             value={selectedPrice}
                         >
                             <option value=""> Price</option>
-                            <option>$1000+</option>
-                            <option>$2000</option>
-                            <option>$3000+</option>
-                            <option>$4000+</option>
-                            <option>$5000+</option>
+                            <option>$500/month</option>
+                            <option>$1000/month</option>
+                            <option>$1700/month</option>
+                            <option>$2000/month</option>
+                            <option>$3000/month</option>
+                            <option>$4000/month</option>
                         </select>
                     </div>
                     <div className=" relative w-full mb-4 md:mb-0 ">
@@ -88,11 +94,11 @@ export default function Main() {
                             value={selectedArea}
                         >
                             <option value="">Area(in sqft)</option>
-                            <option>Pune</option>
-                            <option>San Francisco</option>
-                            <option>New Delhi</option>
-                            <option>Mumbai</option>
-                            <option>Banglore</option>
+                            <option>500 sqft</option>
+                            <option>1000 sqft</option>
+                            <option>2000 sqft</option>
+                            <option>3000 sqft</option>
+                            <option>4000 sqft</option>
                         </select>
                     </div>
                 </div>
