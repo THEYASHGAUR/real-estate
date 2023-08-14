@@ -27,7 +27,7 @@ const propertyData = [
     },
     {
         id: 3,
-        imageUrl: '../public/assets/img3.jpg',
+        imageUrl: '/assets/img3.jpg',
         price: '$2000/month',
         bhk: 3,
         location:'Banglore',
@@ -39,7 +39,7 @@ const propertyData = [
     },
     {
         id: 4,
-        imageUrl: '../public/assets/img4.jpg',
+        imageUrl: '/assets/img4.jpg',
         price: '$3000/month',
         bhk: 3,
         location: 'New Delhi',
@@ -51,7 +51,7 @@ const propertyData = [
     },
     {
         id: 5,
-        imageUrl: '../public/assets/img5.jpg',
+        imageUrl: '/assets/img5.jpg',
         price: '$2000/month',
         bhk: 2,
         location: 'Mumbai',
@@ -64,7 +64,7 @@ const propertyData = [
     // Entry 32
     {
         id: 6,
-        imageUrl: '../public/assets/img6.jpg',
+        imageUrl: '/assets/img6.jpg',
         price: '$1700/month',
         bhk: 4,
         location: 'Banglore',
@@ -76,7 +76,7 @@ const propertyData = [
     },
     {
         id: 7,
-        imageUrl: '../public/assets/img7.jpg',
+        imageUrl: '/assets/img7.jpg',
         price: '$2000/month',
         bhk: 3,
         location: 'Mumbai',
@@ -89,7 +89,7 @@ const propertyData = [
     // Entry 34
     {
         id: 8,
-        imageUrl: '../public/assets/img8.jpg',
+        imageUrl: '/assets/img8.jpg',
         price: '$2000/month',
         bhk: 2,
         location: 'New Delhi',
@@ -101,7 +101,7 @@ const propertyData = [
     },
     {
         id: 9,
-        imageUrl: '../public/assets/img9.jpg',
+        imageUrl: '/assets/img9.jpg',
         price: '$2000/month',
         bhk: 3,
         location: 'New Delhi',
@@ -113,7 +113,7 @@ const propertyData = [
     },
     {
         id: 10,
-        imageUrl: '../public/assets/img10.jpg',
+        imageUrl: '/assets/img10.jpg',
         price: '$2000/month',
         bhk: 5,
         location: 'Banglore',
@@ -126,7 +126,7 @@ const propertyData = [
     // Entry 37
     {
         id: 11,
-        imageUrl: '../public/assets/img11.jpg',
+        imageUrl: '/assets/img11.jpg',
         price: '$1700/month',
         bhk: 4,
         location:'Mumbai',
@@ -138,7 +138,7 @@ const propertyData = [
     },
     {
         id: 12,
-        imageUrl: '../public/assets/img5.jpg',
+        imageUrl: '/assets/img5.jpg',
         price: '$3000/month',
         bhk: 3,
         location: 'Banglore',
@@ -151,7 +151,7 @@ const propertyData = [
     {
         location: 'Mumbai',
         id: 13,
-        imageUrl: '../public/assets/img10.jpg',
+        imageUrl: '/assets/img10.jpg',
         price: '$1000/month',
         bhk: 5,
         pincode: '23456',
@@ -163,7 +163,7 @@ const propertyData = [
     {
         location: 'New Delhi',
         id: 14,
-        imageUrl: '../public/assets/img9.jpg',
+        imageUrl: '/assets/img9.jpg',
         price: '$2000/month',
         bhk: 3,
         pincode: '34567',
@@ -175,7 +175,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 15,
-        imageUrl: '../public/assets/img5.jpg',
+        imageUrl: '/assets/img5.jpg',
         price: '$1000/month',
         bhk: 1,
         pincode: '45678',
@@ -187,7 +187,7 @@ const propertyData = [
     {
         location: 'Banglore',
         id: 16,
-        imageUrl: '../public/assets/img8.jpg',
+        imageUrl: '/assets/img8.jpg',
         price: '$2000/month',
         bhk: 3,
         pincode: '56789',
@@ -199,7 +199,7 @@ const propertyData = [
     {
         location: 'Haryana',
         id: 17,
-        imageUrl: '../public/assets/img5.jpg',
+        imageUrl: '/assets/img5.jpg',
         price: '$2000/month',
         bhk: 2,
         pincode: '67890',
@@ -212,7 +212,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 18,
-        imageUrl: '../public/assets/img5.jpg',
+        imageUrl: '/assets/img5.jpg',
         price: '$1700/month',
         bhk: 1,
         pincode: '78901',
@@ -224,7 +224,7 @@ const propertyData = [
     {
         location: 'Haryana',
         id: 19,
-        imageUrl: '../public/assets/img6.jpg',
+        imageUrl: '/assets/img6.jpg',
         price: '$2000/month',
         bhk: 3,
         pincode: '23456',
@@ -237,7 +237,7 @@ const propertyData = [
     {
         location: 'Punjab',
         id: 20,
-        imageUrl: '../public/assets/img8.jpg',
+        imageUrl: '/assets/img8.jpg',
         price: '$2000/month',
         bhk: 2,
         pincode: '34567',
@@ -249,7 +249,7 @@ const propertyData = [
     {
         location: 'New Delhi',
         id: 21,
-        imageUrl: '../public/assets/img2.jpg',
+        imageUrl: '/assets/img2.jpg',
         price: '$1700/month',
         bhk: 3,
         pincode: '45678',
@@ -262,7 +262,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 22,
-        imageUrl: '../public/assets/img3.jpg',
+        imageUrl: '/assets/img3.jpg',
         price: '$1700/month',
         bhk: 4,
         pincode: '56789',
@@ -274,7 +274,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 23,
-        imageUrl: '../public/assets/img7.jpg',
+        imageUrl: '/assets/img7.jpg',
         price: '$3000/month',
         bhk: 3,
         pincode: '67890',
@@ -287,7 +287,7 @@ const propertyData = [
     {
         location: 'Haryana',
         id: 24,
-        imageUrl: '../public/assets/img9.jpg',
+        imageUrl: '/assets/img9.jpg',
         price: '$1700/month',
         bhk: 5,
         pincode: '78901',
@@ -299,7 +299,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 25,
-        imageUrl: '../public/assets/img4.jpg',
+        imageUrl: '/assets/img4.jpg',
         price: '$2000/month',
         bhk: 3,
         pincode: '23456',
@@ -312,7 +312,7 @@ const propertyData = [
     {
         location: 'Haryana',
         id: 26,
-        imageUrl: '../public/assets/img11.jpg',
+        imageUrl: '/assets/img11.jpg',
         price: '$2000/month',
         bhk: 2,
         pincode: '34567',
@@ -324,7 +324,7 @@ const propertyData = [
     {
         location: 'Haryana',
         id: 27,
-        imageUrl: '../public/assets/img8.jpg',
+        imageUrl: '/assets/img8.jpg',
         price: '$2000/month',
         bhk: 2,
         pincode: '45678',
@@ -337,7 +337,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 28,
-        imageUrl: '../public/assets/img9.jpg',
+        imageUrl: '/assets/img9.jpg',
         price: '$1700/month',
         bhk: 1,
         pincode: '56789',
@@ -349,7 +349,7 @@ const propertyData = [
     {
         location: 'Punjab',
         id: 29,
-        imageUrl: '../public/assets/img3.jpg',
+        imageUrl: '/assets/img3.jpg',
         price: '$3000/month',
         bhk: 3,
         pincode: '67890',
@@ -361,7 +361,7 @@ const propertyData = [
     {
         location: 'Pune',
         id: 30,
-        imageUrl: '../public/assets/img1.jpg',
+        imageUrl: '/assets/img1.jpg',
         price: '$4000/month',
         bhk: 2,
         pincode: '78901',
