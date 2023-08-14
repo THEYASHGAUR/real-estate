@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Card from "./Card";
-import propertyData from "../assets/PropertyData";
-
+import propertyData from "../PropertyData";
 
 
 

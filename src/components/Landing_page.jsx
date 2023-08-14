@@ -6,7 +6,7 @@ const Landing_page = () => {
 
   return (
     <>
-      <div className=" bg-landing_page h-110  bg-red-500 flex flex-col items-center justify-center">
+      <div className=" bg-landing_page h-110 flex flex-col items-center justify-center">
         <p className="text-4xl font-bold text-white sm:text-white">Agents. Tours. Loans. Homes.</p>
         {/* search bar */}
         <div className='w-96 relative mt-10 sm:w-110'>
