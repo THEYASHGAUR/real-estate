@@ -1,10 +1,10 @@
-import Img1 from '../public/assets/img1.jpg';
+
 
 const propertyData = [
     {
         location: 'New Delhi',
         id: 1,
-        imageUrl: '../public/assets/img1.jpg',
+        imageUrl: '/assets/img1.jpg',
         price: '$2000/month',
         bhk: 2,
         pincode: '12345',
@@ -16,7 +16,7 @@ const propertyData = [
     {
         location: 'Mumbai',
         id: 2,
-        imageUrl: '../public/assets/img2.jpg',
+        imageUrl: '/assets/img2.jpg',
         price: '$1700/month',
         bhk: 1,
         pincode: '67890',
